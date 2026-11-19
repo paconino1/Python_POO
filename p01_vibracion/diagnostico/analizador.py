@@ -1,4 +1,4 @@
-from Python_POO.p01_vibracion.iiot.vibracion import SensorVibracion
+from iiot.vibracion import SensorVibracion
 
 class AnalizadorVibracion:
   def evaluar_estado(self, sensor_obj: SensorVibracion):

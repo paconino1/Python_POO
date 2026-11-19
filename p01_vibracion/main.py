@@ -1,5 +1,5 @@
-from Python_POO.p01_vibracion.iiot.vibracion import SensorVibracion
-from Python_POO.p01_vibracion.diagnostico.analizador import AnalizadorVibracion
+from iiot.vibracion import SensorVibracion
+from diagnostico.analizador import AnalizadorVibracion
 
 def ejecutar_aplicacion():
   print("=== MONITOR IIOT VIBRACIÓN ISO 10816 ===")
